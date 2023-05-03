@@ -11,6 +11,9 @@ import IconButton from '@mui/material/IconButton'
 import AdbIcon from '@mui/icons-material/Adb'
 import Button from '@mui/material/Button'
 import Link from '@mui/material/Link'
+import FacebookIcon from '@mui/icons-material/Facebook'
+import TwitterIcon from '@mui/icons-material/Twitter'
+import InstagramIcon from '@mui/icons-material/Instagram'
 
 function NavBar() {
 
@@ -30,7 +33,7 @@ function NavBar() {
         url: 'music'
     },
     {
-        name: 'About Us',
+        name: 'About',
         url: 'about'
     },
     {
@@ -103,6 +106,9 @@ function NavBar() {
                     </Typography>
                   </MenuItem>
                 ))}
+                <MenuItem key='socials' onClick={handleCloseNavMenu}>
+                    <FacebookIcon /><TwitterIcon /><InstagramIcon />
+                </MenuItem>
               </Menu>
             </Box>
             <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
@@ -128,12 +134,22 @@ function NavBar() {
                 <Button
                   key={page.name}
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, mx: 1, color: 'white', display: 'block' }}
+                  sx={{ my: 'auto', mx: 1, color: 'white', display: 'block' }}
                   href={page.url}
                 >
                   {page.name}
                 </Button>
               ))}
+              <Container sx={{flexGrow: 5}}></Container>
+              <Button key='facebook' onClick={handleCloseNavMenu} sx={{ my: 'auto', color: 'white', display: 'block'}}>
+                    <FacebookIcon />
+              </Button>
+              <Button key='twitter' onClick={handleCloseNavMenu} sx={{ my: 'auto', color: 'white', display: 'block'}}>
+                    <TwitterIcon />
+              </Button>
+              <Button key='instagram' onClick={handleCloseNavMenu} sx={{ my: 'auto', color: 'white', display: 'block'}}>
+                    <InstagramIcon />
+              </Button>
             </Box>
           </Toolbar>
         </Container>
