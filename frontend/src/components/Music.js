@@ -3,7 +3,7 @@ import { Spotify } from 'react-spotify-embed'
 
 function Music() {
     return (
-        <Container align="center">
+        <Container align="center" sx={{mt: '100px'}}>
             <Spotify link="https://open.spotify.com/album/4uNzDULQ9RAy0nxGaPbCDn?si=Uh6oIUpuRaeuEybngX37rw" />
         </Container>
     )
