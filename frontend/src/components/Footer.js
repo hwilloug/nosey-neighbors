@@ -18,12 +18,12 @@ function Footer() {
         color: 'white'
       }}
     >
-      <List>
+      <List sx={{display: 'flex'}}>
         <ListItem><Typography sx={{fontWeight: '700'}}>
           <Link href='/' underline='none' color='inherit'>Nosey Neighbor</Link>
         </Typography></ListItem>
         <ListItem><Link href='/music' sx={{color: 'white'}}>Music</Link></ListItem>
-        <ListItem><Link href='/about' sx={{color: 'white'}}>About Us</Link></ListItem>
+        <ListItem><Link href='/about' sx={{color: 'white'}}>About</Link></ListItem>
         <ListItem><Link href='/book' sx={{color: 'white'}}>Merch</Link></ListItem>
         <ListItem><Link href='/contact' sx={{color: 'white'}}>Contact</Link></ListItem>
         <ListItem><Link href='/sitemap' sx={{color: 'white'}}>Sitemap</Link></ListItem>
