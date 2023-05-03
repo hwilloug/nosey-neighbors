@@ -4,6 +4,7 @@ import LandingPage from './pages/LandingPage';
 import NavBar from './components/NavBar';
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@emotion/react';
+import Footer from './components/Footer';
 
 const theme = createTheme({
   palette: {
@@ -20,6 +21,7 @@ function App() {
         <ParallaxProvider>
           <NavBar />
           <LandingPage />
+          <Footer />
         </ParallaxProvider>
       </ThemeProvider>
     </div>

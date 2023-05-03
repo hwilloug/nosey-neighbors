@@ -24,7 +24,24 @@ function NavBar() {
     setAnchorElNav(null);
   }
 
-  const pages = []
+  const pages = [
+    {
+        name: 'Music',
+        url: 'music'
+    },
+    {
+        name: 'About Us',
+        url: 'about'
+    },
+    {
+        name: 'Merch',
+        url: 'merch'
+    },
+    {
+        name: 'Contact',
+        url: 'contact'
+    }
+  ]
 
   return (
     <AppBar position='static'>
