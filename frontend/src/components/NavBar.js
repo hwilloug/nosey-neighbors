@@ -11,7 +11,6 @@ import IconButton from '@mui/material/IconButton'
 import Button from '@mui/material/Button'
 import { HashLink as Link } from 'react-router-hash-link'
 import FacebookIcon from '@mui/icons-material/Facebook'
-import TwitterIcon from '@mui/icons-material/Twitter'
 import InstagramIcon from '@mui/icons-material/Instagram'
 
 function NavBar() {
@@ -107,7 +106,7 @@ function NavBar() {
                   </MenuItem>
                 ))}
                 <MenuItem key='socials' onClick={handleCloseNavMenu}>
-                    <FacebookIcon /><TwitterIcon /><InstagramIcon />
+                    <FacebookIcon /><InstagramIcon />
                 </MenuItem>
               </Menu>
             </Box>
@@ -139,9 +138,6 @@ function NavBar() {
               <Container sx={{flexGrow: 5}}></Container>
               <Button key='facebook' onClick={handleCloseNavMenu} sx={{ my: 'auto', color: 'white', display: 'block'}}>
                     <FacebookIcon />
-              </Button>
-              <Button key='twitter' onClick={handleCloseNavMenu} sx={{ my: 'auto', color: 'white', display: 'block'}}>
-                    <TwitterIcon />
               </Button>
               <Button key='instagram' onClick={handleCloseNavMenu} sx={{ my: 'auto', color: 'white', display: 'block'}}>
                     <InstagramIcon />

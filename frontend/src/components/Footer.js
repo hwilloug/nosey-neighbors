@@ -4,7 +4,6 @@ import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
 import Link from '@mui/material/Link'
 import FacebookIcon from '@mui/icons-material/Facebook'
-import TwitterIcon from '@mui/icons-material/Twitter'
 import InstagramIcon from '@mui/icons-material/Instagram'
 
 function Footer() {
@@ -28,7 +27,7 @@ function Footer() {
         <ListItem><Link href='/book' sx={{color: 'white'}}>Merch</Link></ListItem>
         <ListItem><Link href='/contact' sx={{color: 'white'}}>Contact</Link></ListItem>
         <ListItem><Link href='/sitemap' sx={{color: 'white'}}>Sitemap</Link></ListItem>
-        <ListItem><FacebookIcon /><TwitterIcon /><InstagramIcon /></ListItem>
+        <ListItem><FacebookIcon /><InstagramIcon /></ListItem>
         </List>
       <Typography align='center'>© {new Date().getFullYear()} Nosey Neighbor</Typography>
     </Container>
