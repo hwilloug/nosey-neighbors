@@ -1,7 +1,7 @@
 import { Typography, Container, Button } from "@mui/material"
 import { Image } from 'mui-image'
 
-function NewsArticles() {
+export default function UpcomingShows() {
 
     const newsArticles = [
         {
@@ -45,5 +45,3 @@ function NewsArticles() {
         </Container>
     )
 }
-
-export default NewsArticles

@@ -6,6 +6,7 @@ body,
 }
 
 .App {
-  background-color: black;
+  background-image: url("https://img.freepik.com/premium-photo/chalkboard-blackboard-dark-wallpaper-background_28629-1125.jpg");
+  background-attachment: fixed;
   color: white;
 }
