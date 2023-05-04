@@ -2,11 +2,16 @@ import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
-import Link from '@mui/material/Link'
+import { HashLink as Link } from 'react-router-hash-link'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import InstagramIcon from '@mui/icons-material/Instagram'
 
 function Footer() {
+
+  const linkStyle = {
+    color: 'white'
+  }
+
   return (
     <Container
       id='footer'
@@ -19,14 +24,14 @@ function Footer() {
     >
       <List sx={{display: 'flex'}}>
         <ListItem><Typography variant='h6' noWrap>
-          <Link href='/' underline='none' color='inherit'>Nosey Neighbor</Link>
+          <Link to='/' style={linkStyle}>Nosey Neighbor</Link>
         </Typography></ListItem>
-        <ListItem><Link href='/music' sx={{color: 'white'}}>Music</Link></ListItem>
-        <ListItem><Link href='/about' sx={{color: 'white'}}>About</Link></ListItem>
-        <ListItem><Link href='/shows' sx={{color: 'white'}}>Shows</Link></ListItem>
-        <ListItem><Link href='/book' sx={{color: 'white'}}>Merch</Link></ListItem>
-        <ListItem><Link href='/contact' sx={{color: 'white'}}>Contact</Link></ListItem>
-        <ListItem><Link href='/sitemap' sx={{color: 'white'}}>Sitemap</Link></ListItem>
+        <ListItem><Link to='#music' style={linkStyle}>Music</Link></ListItem>
+        <ListItem><Link to='#about' style={linkStyle}>About</Link></ListItem>
+        <ListItem><Link to='#shows' style={linkStyle}>Shows</Link></ListItem>
+        <ListItem><Link to='#book' style={linkStyle}>Merch</Link></ListItem>
+        <ListItem><Link to='#contact' style={linkStyle}>Contact</Link></ListItem>
+        <ListItem><Link to='#sitemap' style={linkStyle}>Sitemap</Link></ListItem>
         <ListItem><FacebookIcon /><InstagramIcon /></ListItem>
         </List>
       <Typography align='center'>© {new Date().getFullYear()} Nosey Neighbor</Typography>
