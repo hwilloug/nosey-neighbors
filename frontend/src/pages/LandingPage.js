@@ -12,11 +12,11 @@ function LandingPage() {
     <>
         <HeaderImage />
         <SignUp />
-        <Container align='center'>
+        <Container sx={{display: 'flex'}}>
             <YoutubeEmbed embedId='q2I0ulTZWXA' />
+            <Music />
         </Container>
         <About />
-        <Music />
         <NewsArticles />
       </>
     )
