@@ -18,11 +18,6 @@ export default function Merch() {
             img: 'https://pyxis.nymag.com/v1/imgs/8f2/9c4/c95d85e1b7750cee91df7a7d5db3e355a9-13-black-tshirt-jcrew.2x.h473.w710.jpg',
             name: 'Shirt',
             price: '20'
-        },
-        {
-            img: 'https://pyxis.nymag.com/v1/imgs/8f2/9c4/c95d85e1b7750cee91df7a7d5db3e355a9-13-black-tshirt-jcrew.2x.h473.w710.jpg',
-            name: 'Shirt',
-            price: '20'
         }
     ]
 
