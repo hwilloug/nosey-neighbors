@@ -21,7 +21,7 @@ function NewsArticles() {
     ]
 
     return (
-        <Container sx={{my: '100px'}}>
+        <Container sx={{my: '100px'}} id="shows">
             <Typography variant='h4'>Upcoming Shows</Typography>
             {newsArticles.map((article) => (
                 <Container sx={{my: '50px'}}>

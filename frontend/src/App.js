@@ -5,15 +5,18 @@ import { ThemeProvider } from '@emotion/react'
 import Footer from './components/Footer'
 import { CssBaseline } from '@mui/material'
 import theme from './theme'
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <NavBar />
-        <LandingPage />
-        <Footer />
+        <BrowserRouter>
+          <NavBar />
+          <LandingPage />
+          <Footer />
+        </BrowserRouter>
       </ThemeProvider>
     </div>
   );

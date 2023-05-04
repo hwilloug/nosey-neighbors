@@ -9,7 +9,7 @@ import Box from '@mui/material/Box'
 import MenuIcon from '@mui/icons-material/Menu'
 import IconButton from '@mui/material/IconButton'
 import Button from '@mui/material/Button'
-import Link from '@mui/material/Link'
+import { HashLink as Link } from 'react-router-hash-link'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import InstagramIcon from '@mui/icons-material/Instagram'
@@ -29,19 +29,23 @@ function NavBar() {
   const pages = [
     {
         name: 'Music',
-        url: 'music'
+        url: '#music'
     },
     {
         name: 'About',
-        url: 'about'
+        url: '#about'
+    },
+    {
+      name: 'Shows',
+      url: '#shows'
     },
     {
         name: 'Merch',
-        url: 'merch'
+        url: '#merch'
     },
     {
         name: 'Contact',
-        url: 'contact'
+        url: '#contact'
     }
   ]
 
@@ -96,7 +100,7 @@ function NavBar() {
                 {pages.map((page) => (
                   <MenuItem key={page.name} onClick={handleCloseNavMenu}>
                     <Typography textAlign="center">
-                      <Link href={page.url} underline='none' color='inherit'>
+                      <Link to={page.url} underline='none' color='inherit'>
                         {page.name}
                       </Link>
                     </Typography>
@@ -128,9 +132,8 @@ function NavBar() {
                   key={page.name}
                   onClick={handleCloseNavMenu}
                   sx={{ my: 'auto', mx: 1, color: 'white', display: 'block' }}
-                  href={page.url}
                 >
-                  {page.name}
+                  <Link to={page.url} style={{textDecoration: 'none', color: 'white'}}>{page.name}</Link>
                 </Button>
               ))}
               <Container sx={{flexGrow: 5}}></Container>

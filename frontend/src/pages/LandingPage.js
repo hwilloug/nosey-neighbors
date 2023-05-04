@@ -3,6 +3,8 @@ import About from '../components/About'
 import SignUp from '../components/SignUp'
 import HeaderImage from '../components/HeaderImage'
 import Music from '../components/Music'
+import Merch from '../components/Merch'
+import Contact from '../components/Contact'
 
 function LandingPage() {
 
@@ -13,6 +15,8 @@ function LandingPage() {
         <Music />
         <About />
         <NewsArticles />
+        <Merch />
+        <Contact />
     </>
     )
 }

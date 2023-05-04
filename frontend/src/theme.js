@@ -28,7 +28,9 @@ export default createTheme({
       },
       h4: {
         fontFamily: 'MetalMania, Arial',
-        letterSpacing: '0.2rem'
+        letterSpacing: '0.2rem',
+        marginTop: '100px',
+        marginBottom: '25px'
       },
       h5: {
         fontFamily: 'MetalMania, Arial',

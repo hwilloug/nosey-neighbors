@@ -3,8 +3,8 @@ import { Image } from 'mui-image'
 
 function About() {
     return (
-        <>
-            <Typography variant='h4' sx={{mt: '100px', mx: '100px'}}>About Us</Typography>
+        <Container id="about">
+            <Typography variant='h4' sx={{mt: '100px'}}>About Us</Typography>
             <Container sx={{
                 display: 'flex', 
                 justifyContent: 'space-between',
@@ -26,7 +26,7 @@ function About() {
             <Container sx={{padding: '20px'}}>
                 <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus quam pellentesque nec nam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus quam pellentesque nec nam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus quam pellentesque nec nam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus quam pellentesque nec nam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus quam pellentesque nec nam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus quam pellentesque nec nam.</Typography>
             </Container>
-        </>
+        </Container>
     )
 }
 

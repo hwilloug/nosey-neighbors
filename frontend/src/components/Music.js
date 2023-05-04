@@ -4,7 +4,7 @@ import YoutubeEmbed from '../components/YoutubeEmbed'
 
 function Music() {
     return (
-        <Container sx={{mt: '100px'}}>
+        <Container sx={{mt: '100px'}} id="music">
             <Typography variant='h4'>Music</Typography>
             <Container sx={{display: 'flex', gap: '20px', alignItems: 'center'}}>
                 <YoutubeEmbed embedId='q2I0ulTZWXA' />
