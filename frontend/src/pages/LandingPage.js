@@ -1,5 +1,3 @@
-import { Container } from '@mui/material'
-import YoutubeEmbed from '../components/YoutubeEmbed'
 import NewsArticles from '../components/NewsArticles'
 import About from '../components/About'
 import SignUp from '../components/SignUp'
@@ -12,13 +10,10 @@ function LandingPage() {
     <>
         <HeaderImage />
         <SignUp />
-        <Container sx={{display: 'flex'}}>
-            <YoutubeEmbed embedId='q2I0ulTZWXA' />
-            <Music />
-        </Container>
+        <Music />
         <About />
         <NewsArticles />
-      </>
+    </>
     )
 }
 

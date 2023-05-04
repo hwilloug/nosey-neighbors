@@ -6,6 +6,7 @@ export default createTheme({
     palette: {
       primary: {
         main: '#000000',
+        secondary: 'purple'
       }
     },
     typography: {
@@ -14,22 +15,28 @@ export default createTheme({
         fontFamily: 'MetalMania, Arial'
       },
       h1: {
-        fontFamily: 'MetalMania, Arial'
+        fontFamily: 'MetalMania, Arial',
+        letterSpacing: '0.2rem'
       },
       h2: {
-        fontFamily: 'MetalMania, Arial'
+        fontFamily: 'MetalMania, Arial',
+        letterSpacing: '0.2rem'
       },
       h3: {
-        fontFamily: 'MetalMania, Arial'
+        fontFamily: 'MetalMania, Arial',
+        letterSpacing: '0.2rem'
       },
       h4: {
-        fontFamily: 'MetalMania, Arial'
+        fontFamily: 'MetalMania, Arial',
+        letterSpacing: '0.2rem'
       },
       h5: {
-        fontFamily: 'MetalMania, Arial'
+        fontFamily: 'MetalMania, Arial',
+        letterSpacing: '0.2rem'
       },
       h6: {
-        fontFamily: 'MetalMania, Arial'
+        fontFamily: 'MetalMania, Arial',
+        letterSpacing: '0.2rem'
       }
     },
     components: {
