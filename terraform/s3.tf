@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "static_react_bucket" {
-    bucket = "noseyneighbor-frontend"
+    bucket = "${var.site_name}-frontend"
     acl = "private"
 
     versioning {

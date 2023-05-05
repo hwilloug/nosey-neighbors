@@ -3,7 +3,7 @@ locals {
 }
 
 resource "aws_cloudfront_origin_access_identity" "oai" {
-  comment = "NoseyNeighborBand.com OAI"
+  comment = "${var.site_name} OAI"
 }
 
 resource "aws_cloudfront_distribution" "cf_distribution" {
