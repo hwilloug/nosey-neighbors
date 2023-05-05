@@ -6,8 +6,7 @@ function About() {
     const imageStyling = {
         border: '1px solid white',
         borderRadius: '10px',
-        padding: '20px',
-        minWidth: '400px'
+        padding: '20px'
     }
 
     return (

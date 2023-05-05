@@ -24,7 +24,7 @@ function Footer() {
       }}
       maxWidth="100%"
     >
-      <List sx={{display: 'flex'}}>
+      <List sx={{display: 'flex', flexWrap: 'wrap'}}>
         <ListItem><Typography variant='h6' noWrap>
           <Link to='/' style={linkStyle}>Nosey Neighbor</Link>
         </Typography></ListItem>
