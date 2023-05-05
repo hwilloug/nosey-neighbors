@@ -21,7 +21,7 @@ export default function UpcomingShows() {
         {
             name: "Live at The Purple Buffalo",
             date: 'Monday, August 21, 2023 8PM',
-            img: require('../assets/'),
+            img: require('../assets/IMG_8620.JPG'),
             content: 'Come see us live at The Purple Buffalo, opening for Burn Absolute, The Pinedrape, and Garotte'
         }
     ]
