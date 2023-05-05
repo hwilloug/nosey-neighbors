@@ -136,10 +136,10 @@ function NavBar() {
                 </Button>
               ))}
               <Container sx={{flexGrow: 5}}></Container>
-              <Button key='facebook' onClick={handleCloseNavMenu} sx={{ my: 'auto', color: 'white', display: 'block'}}>
+              <Button key='facebook' href="https://www.facebook.com/people/Nosey-Neighbor/100089151879082/?mibextid=LQQJ4d" target="_blank" onClick={handleCloseNavMenu} sx={{ my: 'auto', color: 'white', display: 'block'}}>
                     <FacebookIcon />
               </Button>
-              <Button key='instagram' onClick={handleCloseNavMenu} sx={{ my: 'auto', color: 'white', display: 'block'}}>
+              <Button key='instagram' href="https://www.instagram.com/nos.eyneighbor/?igshid=YmMyMTA2M2Y%3D" target="_blank" onClick={handleCloseNavMenu} sx={{ my: 'auto', color: 'white', display: 'block'}}>
                     <InstagramIcon />
               </Button>
             </Box>

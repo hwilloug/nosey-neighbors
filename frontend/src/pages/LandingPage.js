@@ -12,7 +12,6 @@ function LandingPage() {
     return (
     <>
         <HeaderImage />
-        <SignUp />
         <ComingSoon name="Music" />
         <About />
         <UpcomingShows />

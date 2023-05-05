@@ -5,6 +5,7 @@ import ListItem from '@mui/material/ListItem'
 import { HashLink as Link } from 'react-router-hash-link'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import InstagramIcon from '@mui/icons-material/Instagram'
+import { Link as RealLink } from '@mui/material'
 
 function Footer() {
 
@@ -33,7 +34,10 @@ function Footer() {
         <ListItem><Link to='#book' style={linkStyle}>Merch</Link></ListItem>
         <ListItem><Link to='#contact' style={linkStyle}>Contact</Link></ListItem>
         <ListItem><Link to='#sitemap' style={linkStyle}>Sitemap</Link></ListItem>
-        <ListItem><FacebookIcon /><InstagramIcon /></ListItem>
+        <ListItem>
+          <RealLink href="https://www.facebook.com/profile.php?id=100089151879082&mibextid=LQQJ4d" target="_blank" sx={{color: 'white'}}><FacebookIcon /></RealLink>
+          <RealLink href="https://instagram.com/nos.eyneighbor?igshid=YmMyMTA2M2Y=" target="_blank" sx={{color: 'white'}}><InstagramIcon /></RealLink>
+        </ListItem>
         </List>
       <Typography align='center'>© {new Date().getFullYear()} Nosey Neighbor</Typography>
     </Container>
