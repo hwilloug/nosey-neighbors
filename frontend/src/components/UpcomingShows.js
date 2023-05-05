@@ -8,15 +8,21 @@ export default function UpcomingShows() {
             name: 'Live at The Milestone',
             date: 'Thursday, May 11, 2023 8PM',
             img: require('../assets/milestone051123.JPG'),
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus quam pellentesque nec nam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus quam pellentesque nec nam.",
-            link: "https://www.freshtix.com/events/thenotlikelys"
+            content: "Come see us live at The Milestone, opening for Totally Slow with SHEHEHE and Faye",
+            link: "https://www.freshtix.com/events/totallyslow"
         },
         {
             name: 'Live at The Milestone',
             date: 'Friday, May 19, 2023 8PM',
             img: require('../assets/milestone051923.JPG'),
-            content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus quam pellentesque nec nam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus quam pellentesque nec nam.",
+            content: "Come see us live at The Milestone, opening for The Not Likelys with Problems and The Menders",
             link: "https://www.freshtix.com/events/thenotlikelys"
+        },
+        {
+            name: "Live at The Purple Buffalo",
+            date: 'Monday, August 21, 2023 8PM',
+            img: require('../assets/'),
+            content: 'Come see us live at The Purple Buffalo, opening for Burn Absolute, The Pinedrape, and Garotte'
         }
     ]
 
@@ -31,13 +37,13 @@ export default function UpcomingShows() {
                         <Image src={article.img} />
                         <Container>
                             <Typography>{article.content}</Typography>
-                            <Button 
+                            {article.link && <Button 
                                 variant='contained'
                                 href={article.link} 
                                 target="_blank" 
                                 color='secondary'
                                 sx={{mt: '20px'}}
-                            >Get Tickets</Button>
+                            >Get Tickets</Button>}
                         </Container>
                     </Container>
                 </Container>

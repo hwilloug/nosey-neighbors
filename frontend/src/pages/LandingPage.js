@@ -13,10 +13,10 @@ function LandingPage() {
     <>
         <HeaderImage />
         <SignUp />
-        <Music />
+        <ComingSoon name="Music" />
         <About />
         <UpcomingShows />
-        <Merch />
+        <ComingSoon name="Merch" />
         <Contact />
     </>
     )
