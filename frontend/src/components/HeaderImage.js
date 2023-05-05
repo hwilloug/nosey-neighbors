@@ -1,12 +1,12 @@
-import { Container, Typography } from "@mui/material"
+import { Container } from "@mui/material"
 import { Image } from 'mui-image'
 
 function HeaderImage() {
     return (
-        <Container sx={{display: 'flex', gap: '10px', backgroundColor: 'black'}} disableGutters maxWidth="100%">
-            <Image src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2017/11/10/13/guns-n-roses.jpg?width=640&auto=webp&quality=50&crop=1500%3A1005%2Csmart" />
-            <Typography variant='h1' align="center" sx={{alignSelf: 'center', margin: '20px'}}>Nosey Neighbor</Typography>
-            <Image src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2017/09/29/12/the-ramones-live.jpg?width=640&auto=webp&quality=50&crop=1247%3A831%2Csmart" />
+        <Container sx={{display: 'flex', gap: '10px', backgroundColor: 'black', alignItems: 'center'}} disableGutters maxWidth="100%">
+            <Image src={require("../assets/IMG_8610.JPG")} />
+            <Image src={require('../assets/logo.JPG')} />
+            <Image src={require('../assets/IMG_8611.JPG')} />
         </Container>
     )
 }

@@ -21,6 +21,7 @@ function Footer() {
         backgroundColor: 'black',
         color: 'white'
       }}
+      maxWidth="100%"
     >
       <List sx={{display: 'flex'}}>
         <ListItem><Typography variant='h6' noWrap>

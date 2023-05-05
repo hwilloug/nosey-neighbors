@@ -5,6 +5,7 @@ import Music from '../components/Music'
 import Merch from '../components/Merch'
 import Contact from '../components/Contact'
 import UpcomingShows from '../components/UpcomingShows'
+import ComingSoon from '../components/ComingSoon'
 
 function LandingPage() {
 
