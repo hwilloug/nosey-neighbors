@@ -90,3 +90,12 @@ resource "aws_cloudfront_distribution" "cf_distribution" {
     cloudfront_default_certificate = true
   }
 }
+
+resource "aws_acm_certificate" "cert" {
+  domain_name       = "noseyneighborband.com"
+  validation_method = "DNS"
+
+  lifecycle {
+    create_before_destroy = true
+  }
+}
