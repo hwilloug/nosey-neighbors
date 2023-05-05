@@ -6,6 +6,7 @@ import Merch from '../components/Merch'
 import Contact from '../components/Contact'
 import UpcomingShows from '../components/UpcomingShows'
 import ComingSoon from '../components/ComingSoon'
+import Gallery from '../components/Gallery'
 
 function LandingPage() {
 
@@ -16,6 +17,7 @@ function LandingPage() {
         <About />
         <UpcomingShows />
         <ComingSoon name="Merch" />
+        <Gallery />
         <Contact />
     </>
     )

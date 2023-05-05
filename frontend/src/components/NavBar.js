@@ -43,6 +43,10 @@ function NavBar() {
         url: '#merch'
     },
     {
+      name: "Gallery",
+      url: '#gallery'
+    },
+    {
         name: 'Contact',
         url: '#contact'
     }

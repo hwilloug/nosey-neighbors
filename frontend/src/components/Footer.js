@@ -32,6 +32,7 @@ function Footer() {
         <ListItem><Link to='#about' style={linkStyle}>About</Link></ListItem>
         <ListItem><Link to='#shows' style={linkStyle}>Shows</Link></ListItem>
         <ListItem><Link to='#book' style={linkStyle}>Merch</Link></ListItem>
+        <ListItem><Link to='#gallery' style={linkStyle}>Gallery</Link></ListItem>
         <ListItem><Link to='#contact' style={linkStyle}>Contact</Link></ListItem>
         <ListItem><Link to='#sitemap' style={linkStyle}>Sitemap</Link></ListItem>
         <ListItem>
